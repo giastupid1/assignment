@@ -1,0 +1,121 @@
+﻿a {
+	text-decoration:none;
+	color:blue;
+}
+.a1 {
+	color:black;
+}
+a:hover {
+	text-decoration:underline;
+}
+.border {
+	
+	width:1034px;
+	height:auto;
+	margin: auto;
+	border:1px solid #ccc;
+	border-radius:10px;
+}
+.wrapper {
+	width:1024px;
+	height:auto;
+	margin: auto;
+}
+.top{
+	width:1024;
+	height:150px;
+}
+	.logo {
+		width:300px;
+		height:150px;
+		float:left;
+	}
+	#house {
+		float:left;
+	}
+	.sreach {
+		width:724;
+		height:100px;
+		float:left;
+	}
+	.sreach1 {
+		height:35px;
+		width:470px;
+		margin-top: 40px;
+	}
+	.formlogin {
+		width:250px;
+		height:100px;
+		margin-left: 473px;
+		margin-top: -78px;
+	}
+	.menu {
+		width:724px;
+		height:50px;
+		float:left;
+	}
+	.menu1 {
+		float:left;
+		padding:15px;
+		position:relative;
+	}
+	.sub-menu{
+		display:none;
+		position:absolute;
+		background:#FF0;
+		margin-top:15px;
+		width:195px;
+		margin-left: -15px;
+		background:white;
+	}
+	.menu3 {
+		position:absolute;
+		display:none;
+		background:white;
+		width:150px;
+		margin-left: 190px;
+		margin-top:-25px;
+		
+	} 
+	.menu3-1 {
+		padding: 5px;
+	}
+	.menu2:hover .menu3{
+		display:block;
+		
+	}
+	.menu3-1:hover{
+		background:black;
+	}
+	.menu1 a:hover {
+		color:white;
+		text-decoration:underline;
+		
+	}
+	.menu1:hover .sub-menu{
+		display:block;
+	}
+	.menu1:hover{
+		background:black;
+	}
+	.menu2 {
+		padding: 5px;
+		position:relative;
+	}
+	.menu3-1:hover a{
+		background:black;
+	}
+	
+	.menu2:hover {
+		color:black;
+		background:black;
+		transition:all 0.5s;
+	}
+	
+	
+.footer{
+	width:1024;
+	height:200px;
+	color:white;
+	background:#099
+}
